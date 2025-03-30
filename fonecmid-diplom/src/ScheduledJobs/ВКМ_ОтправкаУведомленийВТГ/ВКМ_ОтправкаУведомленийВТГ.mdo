@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d11db21-ce3a-4ca9-9256-4c9668e378a6">
+  <name>ВКМ_ОтправкаУведомленийВТГ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка уведомлений в ТГ</value>
+  </synonym>
+  <methodName>CommonModule.ВКМ_ИнтеграцияТГ.ОтправитьСообщение</methodName>
+  <description>ВКМ_ОтправкаУведомленийВТГ</description>
+  <key>ВКМ_ОтправкаУведомленийВТГ</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

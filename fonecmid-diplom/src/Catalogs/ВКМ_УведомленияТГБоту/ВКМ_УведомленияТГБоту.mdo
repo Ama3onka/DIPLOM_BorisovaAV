@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f559dae9-2de9-4f08-9ef2-71539ad09066">
+  <producedTypes>
+    <objectType typeId="4ed16c68-1cb2-4151-9073-b840e5e2f0ea" valueTypeId="b0dc3f9d-d1dd-4303-8db6-ffbd8aac34fe"/>
+    <refType typeId="41c9067d-78a5-4cb0-96e2-a770ef2920c6" valueTypeId="225b08db-905e-454e-a70e-9af934d58d9d"/>
+    <selectionType typeId="8b81e29d-da85-4871-9ff3-dbc2b3e8f3db" valueTypeId="8079539a-2bec-438b-a028-351d3d0de324"/>
+    <listType typeId="7fb0c00d-228b-4506-b81e-03e6a48f4d67" valueTypeId="74f6c231-39bc-4b9e-bbb8-ba3ac7221319"/>
+    <managerType typeId="add441fd-2590-4639-b4e6-4d998dafd45e" valueTypeId="b3962db4-3252-4ed0-8253-c91c06f3a7a8"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТГБоту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления ТГ боту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_УведомленияТГБоту.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_УведомленияТГБоту.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВКМ_УведомленияТГБоту.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВКМ_УведомленияТГБоту.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="60872a7a-f12c-4fde-970b-8e33c0c1b78e">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="eb4c7714-b21c-49ee-a26f-44c31e96e5ab">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="86472505-1449-4ce9-9ad4-c793c4bb8943">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
