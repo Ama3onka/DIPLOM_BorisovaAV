@@ -437,6 +437,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_УведомленияТГБоту.Attribute.Текст</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Значение</name>
 		<right>
 			<name>Edit</name>
@@ -644,7 +655,43 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -687,6 +734,46 @@
 		<name>Constant.НастройкиКолонтитулов</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -877,13 +964,159 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_УведомленияТГБоту</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_УведомленияТГБоту.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_УведомленияТГБоту.StandardAttribute.Predefined</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_УведомленияТГБоту.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_УведомленияТГБоту.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_УведомленияТГБоту.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_УведомленияТГБоту.StandardAttribute.Owner</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_УведомленияТГБоту.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_УведомленияТГБоту.StandardAttribute.Description</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_УведомленияТГБоту.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ВКМ_НоменклатураАбонентскаяПлата</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
