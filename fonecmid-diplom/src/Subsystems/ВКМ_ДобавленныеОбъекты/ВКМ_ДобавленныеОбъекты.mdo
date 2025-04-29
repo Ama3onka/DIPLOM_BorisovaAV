@@ -54,4 +54,5 @@
   <content>Role.ВКМ_МассовоеСозданиеДокументов</content>
   <content>Role.ВКМ_ЗаработнаяПлатаИОтпуск</content>
   <content>Role.ВКМ_ОбслуживаниеКлиентовМенеджером</content>
+  <content>CommonModule.УправлениеДоступомИТ</content>
 </mdclass:Subsystem>
